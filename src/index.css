@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #000000;
+    background-image:
+      radial-gradient(ellipse 85% 45% at 50% -12%, rgba(0, 102, 255, 0.22), transparent),
+      radial-gradient(ellipse 50% 35% at 88% 12%, rgba(212, 175, 55, 0.14), transparent);
+    color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Or Massif (Solid Gold) & Bleu Electrique */
+.gold-shimmer-text,
+.solid-gold-text {
+  color: #E6BD38;
+}
+
+.gold-shimmer-btn,
+.solid-gold-btn {
+  background-color: #D4AF37;
+  color: #020306;
+  border: 1px solid #F2CE5B;
+  box-shadow: 0 2px 18px rgba(212, 175, 55, 0.3);
+}
+
+.gold-shimmer-btn:hover,
+.solid-gold-btn:hover {
+  background-color: #E5BF42;
+}
+
+.electric-glow-btn {
+  background-color: #0066FF;
+  color: #FFFFFF;
+  border: 1px solid #3B9EFF;
+  box-shadow: 0 0 22px rgba(0, 102, 255, 0.4);
+}
+
+.electric-glow-btn:hover {
+  background-color: #1A75FF;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "KAL-SU GIFT",
+  "description": "Plateforme professionnelle de vente de cartes cadeaux et de recharges numériques pour Haïti avec USD/HTG, MonCash, NatCash, fournisseurs API et recharge DLS par Player ID.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="120" y1="90" x2="400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="28" y="28" width="456" height="456" rx="92" stroke="url(#blueGrad)" stroke-width="6" stroke-opacity="0.6"/>
+  <!-- Digital Gift Box Frame -->
+  <rect x="116" y="168" width="280" height="224" rx="28" fill="#0B1120" stroke="url(#goldGrad)" stroke-width="10"/>
+  <rect x="96" y="132" width="320" height="54" rx="16" fill="#111827" stroke="url(#blueGrad)" stroke-width="8"/>
+  <!-- Gift Ribbon Bow & Lightning Core -->
+  <path d="M256 132 C226 84 176 88 186 128 C192 132 232 132 256 132 Z" fill="url(#goldGrad)"/>
+  <path d="M256 132 C286 84 336 88 326 128 C320 132 280 132 256 132 Z" fill="url(#goldGrad)"/>
+  <!-- K Letter (Left) -->
+  <path d="M150 220 V340 M150 280 L204 220 M174 256 L210 340" stroke="#F8FAFC" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Electric Lightning Bolt -->
+  <path d="M270 198 L234 280 H264 L244 364 L294 268 H262 L270 198 Z" fill="url(#goldGrad)" stroke="#3B82F6" stroke-width="4" stroke-linejoin="round"/>
+  <!-- S Letter (Right) -->
+  <path d="M358 232 C352 218 322 214 308 228 C294 242 302 264 326 274 C350 284 362 302 350 324 C338 342 306 342 296 326" stroke="#3B82F6" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
